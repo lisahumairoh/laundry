@@ -1,0 +1,218 @@
+*{   
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 650px;
+    position: relative;
+    width: 100%;
+}
+.container header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    line-height: 70px; 
+    box-shadow: 0 3px 4px rgba(116, 116, 116, 0.336);
+}
+.container header .logo{
+    position: relative;
+    float: left;
+    padding-left: 100px;
+    position: relative;
+	color: rgb(228, 127, 127);
+	text-decoration:none;
+	font-size: 2em;
+	letter-spacing: 2px;
+	transition: 0.6px;
+}
+.container .header ul{
+    margin-left: 550px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+	align-items: center; 
+}
+.container .header ul li{
+    list-style: none;
+    position: relative;
+}
+.container .header ul li a{
+    padding: 3px;
+    position: relative;
+    text-decoration: none;
+    margin: 5px;
+	color: rgb(228, 127, 127);
+}
+.container .header ul li a:hover{
+    background-color: #ffb993;
+    color: #fff;
+    transition: 0.5s;
+}
+.container .slogan{
+    height: 650px;
+    width: 100%;
+    position: relative;
+    z-index: -99;
+}
+.container .slogan .gambar{
+    margin-top: 70px;
+    position: absolute;
+    width: 50%;
+    height: 570px;
+    border-radius:  0 50% 50% 0;
+    background-image: url('../img/Laundry.gif');
+    background-position: cover;
+    background-position-x: 30%;
+    box-shadow: 5px 0px 6px 0px #8f8f8f;
+
+}
+.container .slogan .kata{
+    float: right;
+    margin-top: 70px;
+    height: 90%;
+    width: 50%;
+    text-align: center;
+}
+.slogan .kata h2{
+    margin-top: 200px;
+    margin-bottom: 5px;
+}
+.slogan .kata span,
+.content .tentang span{
+    background-color: #ffb993;
+    color: #fff;
+}
+.container .content{
+    margin: auto;
+    padding: 60px 0 60px 0;
+    width: 80%;
+}
+/* Laundry Sekarang */
+.content .form,
+.main .form{
+    margin-top: 50px;
+    width: 500px;
+    box-shadow:  0 0 0.5px 0.5px rgb(163, 163, 163);
+    border-radius: 10px;
+}
+.main .form{
+    margin: auto;
+}
+.content .form .box-input,
+.main .form .box-input{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.content .form .box-input input,
+.main .form .box-input input{
+    width: 300px;
+    height: 35px;
+    border-radius: 3px;
+    border: 0.5px solid rgb(158, 158, 158);
+    background-color: rgba(241, 241, 241, 0.548);
+}
+
+
+/* Footer */
+.container .footer{
+    position: fixed;
+    box-shadow: -4px 0 4px  rgb(0, 0, 0);
+    background-color: #ffb993;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    bottom: 0%;
+}
+
+/*-----------ADMIN------------ */
+.container .header-admin{
+    height: 40px;
+    width: 100%;
+    background-color: #585858;
+    z-index: 99;
+}
+.container header .logo-white{
+	font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+    padding-left: 100px;
+}
+.container .content-admin{
+    width: 100%;
+    position: relative;
+}
+.container .content-admin .sidebar{
+    margin-top: 40px;
+    width: 20%;
+    height: 500px;
+    position: fixed;
+    background-color: #919191;
+    color: #fff;
+}
+.content-admin .sidebar ul{
+    margin-top: 70px;
+}
+
+.content-admin .sidebar ul li{
+    height: 50px;    
+    background-color: #d3d3d3;
+    margin-top: 10px;
+    text-align: center;
+}
+.content-admin .sidebar ul li a{
+    text-decoration: none;
+    line-height: 50px;
+    color: #fff;
+}
+.content-admin .sidebar ul li a:hover{
+    color: #000;    
+
+}
+.container .content-admin .main{
+    margin-top: 50px;
+    float: right;
+    width: 80%;
+}
+.container .content-admin .main .pembuka{
+    margin: 70px 50px;
+}
+.container .content-admin .main table{
+    margin: 50px auto auto auto;
+}
+.container .content #tabel{
+    margin-top: 100px;
+}
+.content-admin .main table tr th,
+.container .content #tabel tr th {
+    background-color: rgb(184, 184, 184);
+}
+.container .content .tabel tr th {
+    color: #fff;
+    background-color: #ffb993;
+    
+}
+#tbltambah, #tblubah, #tblhapus, #tbldetail, #btnriwayat{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+}
+#tbltambahform{
+    background-color: rgb(0, 143, 12);
+}
+#tbltambah{
+    background-color: rgb(0, 143, 12);
+    padding: 5px;
+}
+#tblubah{
+    background-color: rgb(212, 163, 0);
+}
+#tblhapus
+{
+    background-color: rgb(151, 3, 3);
+}
+#tbldetail,
+#btnriwayat{
+    background-color: rgb(1, 11, 143);
+}
